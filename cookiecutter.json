@@ -1,0 +1,16 @@
+{
+  "full_name": "Thomas Greg Corcoran",
+  "email": "thomasgregcorcoran@gmail.com",
+  "github_username": "thomasgreg",
+  "project_name": "Python Project Boilerplate",
+  "project_repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_slug": "{{ cookiecutter.project_repo_name.replace('-', '_') }}",
+  "project_short_description": "Minimal boilerplate for Python packages",
+  "project_long_description": "Minimal boilerplate for Python packages",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1",
+  "command_line_interface": ["Click", "No command-line interface"],
+  "scipy_stack": "n",
+  "docker_dev_environment": "None",
+  "conda_env": "None"
+}

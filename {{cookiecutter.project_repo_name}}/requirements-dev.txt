@@ -1,0 +1,14 @@
+pip
+flake8
+tox
+PyYAML
+pytest
+Click
+dotenv
+sh
+{% if cookiecutter.scipy_stack == 'y' -%}
+numpy
+scipy
+pandas
+jupyter
+{%- endif %}
